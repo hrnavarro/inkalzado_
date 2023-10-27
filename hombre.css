@@ -1,0 +1,112 @@
+body{
+    background-color: #aaa;
+    margin:0% ;
+    
+    
+}
+.usuario{
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    text-decoration: none;
+
+    
+}
+header{
+    display: flex;
+    background-color: salmon;
+    justify-content: space-between;
+   
+  
+}
+.logo{
+   
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.min-conter{
+    height: 400px;
+    max-width:400px ;
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.min-conter:hover{
+    box-shadow: 0 10px 10px 15px;
+
+    color: rgba(1, 1, 1, 0.255);
+}
+
+.compañia{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 2%;
+    
+}
+.hombres{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+p{
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    
+}
+button{
+    background-color: black;
+    border-radius: 10px;
+    color: azure;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}a{
+    text-decoration: none;
+}
+.contenedor2{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}.conter2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px ;
+
+}.conver1{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}   .conter3{
+    background-image: url(img/nik1es.jpg);
+    background-size: cover;
+    background-position: center;
+      border: none;
+      border-radius: 10px;
+}
+.cover2:hover{
+    box-shadow: 0 10px 10px 15px;
+    color: rgba(1, 1, 1, 0.255);
+}
+.comprar{
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    padding-left: 10px   ;
+}
